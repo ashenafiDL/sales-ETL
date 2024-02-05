@@ -11,6 +11,7 @@ The following python libraries are needed to run the project
 - `pandas`
 - `scipy`
 - `sqlalchemy`
+- `python-dotenv`
 
 Install them by using `pip install pandas scipy sqlalchemy`.
 
@@ -25,6 +26,8 @@ Install them by using `pip install pandas scipy sqlalchemy`.
    - install `git-lfs` (`sudo apt install git-lfs` on ubuntu)
    - enable git lfs by running `git lfs install`
 
-3. Open `Load and Transform` jupyter notebook and run each cell one by one.
+3. Create `.env` file and set it up as in `.env.example` file
 
-4. Visualizations are available at `visualization-pdf` and `visualization.pbit` files
+4. Open `Load and Transform` jupyter notebook and run each cell one by one.
+
+5. Visualizations are available at `visualization-pdf` and `visualization.pbit` files
